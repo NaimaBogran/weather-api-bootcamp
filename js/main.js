@@ -23,7 +23,7 @@ function getWeather(){
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        document.querySelector('h4').innerText = `It is ${data.currentConditions.temp}°F and ${data.currentConditions.conditions} outside now! `
+        document.querySelector('h4').innerText = `It is ${data.currentConditions.temp}°F and ${data.currentConditions.conditions} outside now in ${data.resolvedAddress}! `
     })
     .catch(err => {
         console.log(`error ${err}`)

@@ -12,6 +12,7 @@ A clean, responsive weather application that helps users quickly check current c
 
 ---
 
+<img width="1719" height="812" alt="image" src="img/readme-img.png" />
 
 ## ✨ Features
 
